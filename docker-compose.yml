@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  rustpython:
+    build: .
+    container_name: rustpython_dev
+    volumes:
+      - .:/usr/src/app   # tu código local se monta en el contenedor
+    tty: true            # mantiene la terminal abierta
