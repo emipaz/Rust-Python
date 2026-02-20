@@ -1,0 +1,6 @@
+{
+  "name": "Rust + Python Dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "rustpython",
+  "workspaceFolder": "/usr/src/app",
+}
