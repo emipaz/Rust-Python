@@ -3,4 +3,6 @@
   "dockerComposeFile": "../docker-compose.yml",
   "service": "rustpython",
   "workspaceFolder": "/usr/src/app",
+  "forwardPorts": [8888],
+  "postStartCommand": "echo 'Entorno listo. Iniciá Jupyter con: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root'"
 }

@@ -5,4 +5,6 @@ services:
     container_name: rustpython_dev
     volumes:
       - .:/usr/src/app   # tu código local se monta en el contenedor
+    ports:
+      - "8888:8888"      # para acceder a Jupyter Notebook desde el host
     tty: true            # mantiene la terminal abierta
