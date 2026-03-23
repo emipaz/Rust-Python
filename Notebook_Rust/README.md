@@ -32,7 +32,7 @@ A continuación, el orden lógico sugerido para leer o revisar los cuadernos exi
 Organización sugerida para los siguientes cuadernos o temas a estudiar:
 
 ### Nivel Intermedio
-- [fundiones a fondo.ipynb](./fundiones%20a%20fondo.ipynb): **Concepto de Funciones a fondo:** Retorno de valores, expresiones vs sentencias `(statements vs expressions)`.
+- [funciones a fondo.ipynb](./funciones%20a%20fondo.ipynb): **Concepto de Funciones a fondo:** Retorno de valores, expresiones vs sentencias `(statements vs expressions)`.
 - [ ] **Structs (Estructuras):** Crear estructuras de datos personalizadas y bloques de implementación (`impl`) de métodos.
 - [ ] **Enums y Pattern Matching:** Definir Enumeradores (`enum`), cómo controlarlos fuertemente con la estructura `match` y abreviaciones como `if let`.
 - [ ] **Strings y Texto:** Comprendiendo a fondo la diferencia entre el tipo contenedor `String` y las referencias inmutables `&str`.
