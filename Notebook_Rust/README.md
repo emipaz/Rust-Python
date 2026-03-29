@@ -33,6 +33,7 @@ Organización sugerida para los siguientes cuadernos o temas a estudiar:
 
 ### Nivel Intermedio
 - [funciones a fondo.ipynb](./funciones%20a%20fondo.ipynb): **Concepto de Funciones a fondo:** Retorno de valores, expresiones vs sentencias `(statements vs expressions)`.
+- [x] **Manejo de Errores:** Introducción con `panic!` y `Result` usando `match`.
 - [ ] **Structs (Estructuras):** Crear estructuras de datos personalizadas y bloques de implementación (`impl`) de métodos.
 - [ ] **Enums y Pattern Matching:** Definir Enumeradores (`enum`), cómo controlarlos fuertemente con la estructura `match` y abreviaciones como `if let`.
 - [ ] **Strings y Texto:** Comprendiendo a fondo la diferencia entre el tipo contenedor `String` y las referencias inmutables `&str`.
