@@ -33,12 +33,12 @@ Organización sugerida para los siguientes cuadernos o temas a estudiar:
 
 ### Nivel Intermedio
 - [funciones a fondo.ipynb](./funciones%20a%20fondo.ipynb): **Concepto de Funciones a fondo:** Retorno de valores, expresiones vs sentencias `(statements vs expressions)`.
-- [x] **Manejo de Errores:** Introducción con `panic!` y `Result` usando `match`.
+- [Manejos de Errores.ipynb](./Manejos%20de%20Errores.ipynb) **Manejo de Errores:** Introducción con `panic!` y `Result` usando `match``, cómo manejar errores de ejecución suaves, uso de `Option` para manejar valores nulos (sin Null pointer) y uso del símbolo `?`.
 - [ ] **Structs (Estructuras):** Crear estructuras de datos personalizadas y bloques de implementación (`impl`) de métodos.
 - [ ] **Enums y Pattern Matching:** Definir Enumeradores (`enum`), cómo controlarlos fuertemente con la estructura `match` y abreviaciones como `if let`.
 - [ ] **Strings y Texto:** Comprendiendo a fondo la diferencia entre el tipo contenedor `String` y las referencias inmutables `&str`.
 - [ ] **Hash Maps:** Almacenamiento mediante clave-valor (Diccionarios en Rust).
-- [ ] **Manejo de Errores:** Trabajando con el enum `Result`, cómo manejar errores de ejecución suaves, uso de `Option` para manejar valores nulos (sin Null pointer) y uso del símbolo `?`.
+
 
 ### Nivel Avanzado
 - [ ] **Sistema de Organización (Módulos):** Paquetes (Packages), Crates, e importación con `use` y la palabra clave `pub` para alcances de visibilidad.
