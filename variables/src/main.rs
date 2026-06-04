@@ -62,13 +62,13 @@ fn input(prompt: &str) -> String {
     
     return input.trim().to_string(); }   
 
+
 /// Función principal del programa.
 ///
 /// - Declara variables de temperatura.
 /// - Solicita el nombre del usuario.
 /// - Muestra un saludo y las temperaturas.
 /// - Actualiza la temperatura actual sumando un valor decimal.
-
 fn main() {
     
     let     temperatura_minima : i8 = -5;  // inmutable 
